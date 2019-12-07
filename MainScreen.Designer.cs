@@ -33,8 +33,6 @@ namespace WhereIsMyCursor
             this.positionY = new System.Windows.Forms.Label();
             this.positionX_Value = new System.Windows.Forms.Label();
             this.positionY_Value = new System.Windows.Forms.Label();
-            this.color = new System.Windows.Forms.Label();
-            this.colorValue = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // positionX
@@ -77,33 +75,11 @@ namespace WhereIsMyCursor
             this.positionY_Value.TabIndex = 3;
             this.positionY_Value.Text = "0";
             // 
-            // color
-            // 
-            this.color.AutoSize = true;
-            this.color.Location = new System.Drawing.Point(231, 14);
-            this.color.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.color.Name = "color";
-            this.color.Size = new System.Drawing.Size(50, 20);
-            this.color.TabIndex = 4;
-            this.color.Text = "Color:";
-            // 
-            // colorValue
-            // 
-            this.colorValue.AutoSize = true;
-            this.colorValue.Location = new System.Drawing.Point(291, 14);
-            this.colorValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.colorValue.Name = "colorValue";
-            this.colorValue.Size = new System.Drawing.Size(50, 20);
-            this.colorValue.TabIndex = 5;
-            this.colorValue.Text = "Color!";
-            // 
-            // Viewer
+            // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 84);
-            this.Controls.Add(this.colorValue);
-            this.Controls.Add(this.color);
+            this.ClientSize = new System.Drawing.Size(256, 84);
             this.Controls.Add(this.positionY_Value);
             this.Controls.Add(this.positionX_Value);
             this.Controls.Add(this.positionY);
@@ -113,7 +89,7 @@ namespace WhereIsMyCursor
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Viewer";
+            this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Where is my Cursor";
             this.TopMost = true;
@@ -129,8 +105,6 @@ namespace WhereIsMyCursor
     private System.Windows.Forms.Label positionY;
     private System.Windows.Forms.Label positionX_Value;
     private System.Windows.Forms.Label positionY_Value;
-    private System.Windows.Forms.Label color;
-    private System.Windows.Forms.Label colorValue;
   }
 }
 

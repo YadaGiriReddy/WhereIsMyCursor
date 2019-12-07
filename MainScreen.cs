@@ -9,7 +9,7 @@ namespace WhereIsMyCursor
 {
     public partial class MainScreen : Form
     {
-       #region GDI32 Imports
+        #region GDI32 Imports
         [DllImport("gdi32.dll")]
         public static extern IntPtr CreateDC(string strDriver, string strDevice,
                                              string strOutput, IntPtr pData);
@@ -56,23 +56,10 @@ namespace WhereIsMyCursor
         #region Timer OnTick
         void TimerOnTick(object obj, EventArgs e)
         {
-            Color color;
             Point point = MousePosition;
-
-            IntPtr dc = CreateDC("Display", null, null, IntPtr.Zero);
-            int pixel = GetPixel(dc, point.X, point.Y);
 
             positionX_Value.Text = point.X.ToString();
             positionY_Value.Text = point.Y.ToString();
-
-            color = Color.FromArgb((pixel & 0x000000FF), (pixel & 0x0000FF00) >> 8, (pixel & 0x00FF0000) >> 16);
-
-            DeleteDC(dc);
-
-            string clrValue = String.Format("{0:X2}-{1:X2}-{2:X2}\n{3}-{4}-{5}", color.R, color.G, color.B, color.R, color.G, color.B);
-
-            colorValue.Text = clrValue;
-
         }
         #endregion Timer OnTick
     }

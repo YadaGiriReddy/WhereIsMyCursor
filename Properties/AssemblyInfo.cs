@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Where is my Cursor")]
-[assembly: AssemblyDescription("This project is to identify the cursor position and color")]
+[assembly: AssemblyDescription("This project is to identify the cursor position in form of x-axis and y-axis")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("H Y R Tutorials")]
 [assembly: AssemblyProduct("WhereIsMyCursor.Properties")]
-[assembly: AssemblyCopyright("Copyright © Oracle Corporation 2019")]
+[assembly: AssemblyCopyright("Copyright © H Y R Tutorials")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
