@@ -1,0 +1,7 @@
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\bin\Release\ScreenPosition.exe
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\bin\Release\ScreenPosition.pdb
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\obj\Release\ScreenPosition.Viewer.resources
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\obj\Release\ScreenPosition.Properties.Resources.resources
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\obj\Release\ScreenPosition.csproj.GenerateResource.cache
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\obj\Release\ScreenPosition.exe
+C:\Users\yhanuman.ORADEV\Downloads\ScreenPosition\ScreenPosition\obj\Release\ScreenPosition.pdb

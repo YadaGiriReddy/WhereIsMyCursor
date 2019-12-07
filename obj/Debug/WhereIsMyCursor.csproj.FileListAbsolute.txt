@@ -1,0 +1,7 @@
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\bin\Debug\WhereIsMyCursor.exe
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\bin\Debug\WhereIsMyCursor.pdb
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\obj\Debug\WhereIsMyCursor.MainScreen.resources
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\obj\Debug\WhereIsMyCursor.Properties.Resources.resources
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\obj\Debug\WhereIsMyCursor.csproj.GenerateResource.cache
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\obj\Debug\WhereIsMyCursor.exe
+C:\Data\Visual Studio Workspace\Utilities\WhereIsMyCursor\obj\Debug\WhereIsMyCursor.pdb

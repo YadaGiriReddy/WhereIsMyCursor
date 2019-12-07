@@ -1,0 +1,16 @@
+bin\Debug\ScreenPosition.exe
+bin\Debug\ScreenPosition.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ScreenPosition.Properties.Resources.resources
+obj\Debug\ScreenPosition.csproj.GenerateResource.Cache
+obj\Debug\ScreenPosition.exe
+obj\Debug\ScreenPosition.pdb
+obj\Debug\ScreenPosition.Viewer.resources
+bin\Release\ScreenPosition.exe
+bin\Release\ScreenPosition.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ScreenPosition.Viewer.resources
+obj\Release\ScreenPosition.Properties.Resources.resources
+obj\Release\ScreenPosition.csproj.GenerateResource.Cache
+obj\Release\ScreenPosition.exe
+obj\Release\ScreenPosition.pdb
